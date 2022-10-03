@@ -10,7 +10,7 @@ CantidadPalabras = int(input("¿Que cantidad de palabras contiene la lista? "))
 # Luego ponemos una condicion para verificar las cantidades de listas
 if CantidadPalabras < 1:
     print("Error, no es la cantidad correcta")
-else: 
+else:
     ListaPalabras = []
 
 # Luego asignamos la condicion for para poder añadir palabras a la lista que estamos creando
@@ -32,30 +32,20 @@ BuscarPalabra = input("Introduzca la palabra que desea buscar: ")
 
 ContadorPalabras = 0
 
-#Aplicamos las condiciones para cuando encontremos una palabra en una lista o no logremos encontrarla
+# Aplicamos las condiciones para cuando encontremos una palabra en una lista o no logremos encontrarla
 
 for a in ListaPalabras:
-    if a == BuscarPalabra:  
+    if a == BuscarPalabra:
         ContadorPalabras += 1
-    if  ContadorPalabras == 0:
-        print(f"La palabra que asigno como '{BuscarPalabra}' esta en la lista!")
+    if ContadorPalabras == 0:
+        print(
+            f"La palabra que asigno como '{BuscarPalabra}' esta en la lista!")
     elif ContadorPalabras == 1:
-        print(f"La palabra que asigno como '{BuscarPalabra}' no se encuentra en la lista ):")
+        print(
+            f"La palabra que asigno como '{BuscarPalabra}' no se encuentra en la lista ):")
     else:
-        print(f"La palabra que asigno como '{BuscarPalabra}' aparece {ContadorPalabras} veces en esta lista")
-        
+        print(
+            f"La palabra que asigno como '{BuscarPalabra}' aparece {ContadorPalabras} veces en esta lista")
+
 
 # FIN :)
-
-
-
-
-
-
-
-
-
-
-
-
-
